@@ -1,0 +1,55 @@
+header{
+	width: 100%;
+	height: 120px;
+	background: #E6E6FA;
+	/*#E6E6FA; lavanda*/
+	/*#D4E6F1; tono de azul*/
+	/*#D6EAF8; tono de azul #B0C4DE/* #AEBCE0;*/
+}
+
+nav{
+
+	background: #CACFD2;
+	/*#E6E6FA;/*#AEBCE0;*/
+	
+}	
+
+a{
+	position: relative;
+	font: menu; /*Tamaño de letra de menu*/
+	font-family: courier; /*Tipo de fuente de letra*/
+	font-weight: 600; 
+	margin-right: 40px; /*Para los espacios entre los items del menu (flota, servicios,etc)*/
+	left: 500px; /*La posición la ponemos en esta etiqueta y no en la etiqueta nav porque sino el fondo se descoloca*/
+	text-decoration:none; /*Para quitar le subrayado que pone este menúd e navegación*/
+	color: #1F618D; /*Color de las letras*/
+	font-style: normal;
+	/*border: 3px groove white;*/
+}
+
+/*Esta etiqueta se usa cuando el ratón esta encima del menú :hover (onmouseover)*/
+a:hover{
+	position: relative;
+	font: menu; /*Tamaño de letra de menu*/
+	font-family: courier; /*Tipo de fuente de letra*/
+	font-weight: 600; 
+	margin-right: 40px; /*Para los espacios entre los items del menu (flota, servicios,etc)*/
+	left: 500px; /*La posición la ponemos en esta etiqueta y no en la etiqueta nav porque sino el fondo se descoloca*/
+	text-decoration:none; /*Para quitar le subrayado que pone este menúd e navegación*/
+	color: #ECF0F1; /*Color de las letras*/
+	font-style: normal;
+}
+
+img{
+	width: 20%;
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+
+section.carrusel{
+	height: 300px;
+	width: auto;
+	/*background-color: blue;*/
+	align-content: center;
+}
